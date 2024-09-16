@@ -103,6 +103,11 @@ Run the following command to install the necessary Python packages:
 ![UI](images/streamlitUI.png)
 
 
+## Class Diagram
+
+![UI](images/ClassDiagram.png)
+
+
 
 
 
