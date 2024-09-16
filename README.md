@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AHFn7Vbn)
 # Superjoin Hiring Assignment
 
 ### Welcome to Superjoin's hiring assignment! 🚀
@@ -58,4 +59,55 @@ We're available at techhiring@superjoin.ai for all queries.
 All the best ✨.
 
 ## Developer's Section
-*Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
+
+# Streamlit Google Sheets Integration
+
+This application is a Streamlit app that integrates with Google Sheets to perform various operations using a MySQL backend.
+
+## Setup and Installation
+
+Follow these steps to set up and run the application:
+
+### 1. Google Sheets API Setup
+
+1. **Enable Google Sheets API**:
+   - Go to the [Google Cloud Console](https://console.cloud.google.com/).
+   - Create or select a project.
+   - Enable the Google Sheets API for the project.
+
+2. **Create Service Account Key**:
+   - Go to the **APIs & Services** section.
+   - Select **Credentials**, then **Create Credentials** → **Service Account**.
+   - Create a service account and download the JSON key file.
+
+3. **Save the Service Account Key**:
+   - Rename the downloaded key file to `secrets.json`.
+   - Place `secrets.json` in the root directory of your project.
+
+### 2. Install Dependencies
+
+Run the following command to install the necessary Python packages:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+### 3. Run the Application
+
+  ```bash
+  streamlit run .\StreamlitApp.py
+  ```
+### adding you own sheets:
+  Remember to share your sheets with the service account in the given secret.
+
+
+![UI](images/streamlitUI.png)
+
+
+## Class Diagram
+
+![UI](images/ClassDiagram.png)
+
+
+
+
+
